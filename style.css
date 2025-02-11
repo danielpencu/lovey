@@ -1,28 +1,46 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
+    background-color: pink;
+    color: white;
 }
 
-header {
-    background: #007bff;
-    color: white;
-    padding: 20px;
+.container {
+    margin-top: 50px;
 }
 
-button {
-    background: #28a745;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+h1 {
+    font-size: 2.5em;
+}
+
+.buttons {
     margin-top: 20px;
 }
 
-button:hover {
-    background: #218838;
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#yes-btn {
+    background-color: red;
+    color: white;
+}
+
+#no-btn {
+    background-color: gray;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#gif-container img {
+    width: 300px;
+    margin-top: 20px;
 }
