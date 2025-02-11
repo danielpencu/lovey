@@ -22,7 +22,7 @@ h1 {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 20px; /* Crește distanța între butoane */
+    gap: 20px;
 }
 
 button {
