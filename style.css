@@ -43,11 +43,18 @@ button {
     color: white;
 }
 
-.hidden {
-    display: none;
+.love-container h1 {
+    font-size: 2.5em;
+    white-space: nowrap;
+    animation: scrollText 5s linear infinite;
 }
 
-#gif-container img {
+@keyframes scrollText {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.love-container img {
     width: 300px;
     margin-top: 20px;
 }
